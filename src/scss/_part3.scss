@@ -1,0 +1,22 @@
+.main {
+  &__part3-icon {
+    background-color: var(--orange-darken);
+    border-radius: 16px;
+
+    &--compatible {
+      padding: 22.45px 19.86px 22.31px 20px;;
+    }
+
+    &--battery {
+      padding: 23.33px 17.01px 21.67px 16px;
+    }
+
+    &--bluetooth {
+      padding: 19px 23.6px 18.14px 23.72px;
+    }
+
+    &--light {
+      padding: 16px 17px 17px 16px;
+    }
+  }
+}

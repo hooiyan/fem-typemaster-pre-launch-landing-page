@@ -9,6 +9,7 @@
 
 :root {
   --heading-font-weight: 900;
+  --body-font-weight: 500;
   --h1-font-size: 5.6rem;
   --h1-small-font-size: 4.8rem;
   --h2-font-size: 3.2rem;
@@ -29,6 +30,23 @@ body {
   background-color: var(--white);
   font-family: "Barlow", sans-serif;
   font-size: 1.6rem;
+}
+
+.main__part3-icon {
+  background-color: var(--orange-darken);
+  border-radius: 16px;
+}
+.main__part3-icon--compatible {
+  padding: 22.45px 19.86px 22.31px 20px;
+}
+.main__part3-icon--battery {
+  padding: 23.33px 17.01px 21.67px 16px;
+}
+.main__part3-icon--bluetooth {
+  padding: 19px 23.6px 18.14px 23.72px;
+}
+.main__part3-icon--light {
+  padding: 16px 17px 17px 16px;
 }
 
 /*# sourceMappingURL=index.css.map */

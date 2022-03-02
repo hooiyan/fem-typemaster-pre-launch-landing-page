@@ -2,8 +2,10 @@
 :root {
   --orange-darken: #F16718;
   --orange-lighten: #FF9B62;
+
   --blue-darken: #162542;
   --blue-lighten: #7B8BAD;
+  
   --silver: #E8EFF2;
   --white: #FFFFFF;
 }
@@ -11,6 +13,8 @@
 // Typography
 :root {
   --heading-font-weight: 900;
+  --body-font-weight: 500;
+
   --h1-font-size: 5.6rem;
   --h1-small-font-size: 4.8rem;
   --h2-font-size: 3.2rem;
