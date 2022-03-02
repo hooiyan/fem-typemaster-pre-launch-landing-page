@@ -1,0 +1,14 @@
+{
+  "name": "typemaster-pre-launch-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.49.9"
+  },
+  "scripts": {
+    "watch-css": "sass --watch src/scss/index.scss public/css/index.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
