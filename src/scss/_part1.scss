@@ -1,4 +1,45 @@
 .main {
+  &__part1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    &--heading {
+      margin-bottom: 24px;
+    }
+
+    &--text {
+      font-size: 1.8rem;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__part1-paragraph {
+    height: 312px;
+    width: 445px;
+  }
+
+  &__part1-cta {
+    display: flex;
+    align-items: center;
+
+    &--btn {
+      background-color: var(--orange-darken);
+      color: var(--white);
+      margin-right: 40px;
+
+      &:hover {
+        background-color: var(--orange-lighten);
+        color: var(--white);
+      }
+    }
+
+    &--date {
+      font-weight: var(--btn-font-weight);
+    }
+  }
+
   &__part1-img {
     &--desktop {
       height: 480px;

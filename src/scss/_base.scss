@@ -11,15 +11,38 @@ html {
 
 body {
   background-color: var(--white);
+  color: var(--blue-lighten);
   font-family: var(--font-family);
   font-size: 1.6rem;
   font-weight: var(--body-font-weight);
+  margin: 55px 165px 39px 165px;
+  max-width: 1440px;
 }
 
 h1, h2, h3 {
+  color: var(--blue-darken);
   font-weight: var(--heading-font-weight);
   text-transform: uppercase;
 } 
+
+h1 {
+  font-size: var(--h1-font-size);
+  line-height: var(--h1-line-height);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+  line-height: var(--h2-line-height);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+  line-height: var(--h3-line-height);
+}
+
+p {
+  line-height: var(--paragraph-line-height);
+}
 
 .btn {
   border: none;

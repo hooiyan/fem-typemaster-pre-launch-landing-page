@@ -1,5 +1,22 @@
 .main {
+  &__part2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 168px;
+    
+    &--heading {
+      margin-bottom: 27px;
+    }
+  }
+  
+  &__part2-img-group {
+    display: flex;
+    margin-right: 125px;
+  }
+
   &__part2-img-group-1 {
+    margin-right: 30px;
+
     &--desktop {
       height: 480px;
       width: 255px;
