@@ -33,6 +33,7 @@ html {
   font-size: 62.5%;
   margin: 0 auto;
   max-width: 1440px;
+  position: relative;
 }
 
 body {
@@ -42,6 +43,7 @@ body {
   font-size: 1.6rem;
   font-weight: var(--body-font-weight);
   margin: 55px 165px 39px 165px;
+  position: relative;
 }
 
 h1, h2, h3 {
@@ -170,6 +172,15 @@ p {
   bottom: 0;
   transform: translateX(-285px);
   overflow-x: hidden;
+}
+.main__part2--overlay {
+  background-color: rgba(241, 103, 24, 0.9);
+  border-radius: 20px;
+  height: 480px;
+  width: 255px;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
 }
 .main__part2-img-group {
   display: flex;

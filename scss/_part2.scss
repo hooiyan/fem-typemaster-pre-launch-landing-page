@@ -16,6 +16,16 @@
       transform: translateX(-285px);
       overflow-x: hidden;
     }
+
+    &--overlay {
+      background-color: rgba($color: #F16718, $alpha: 0.9);
+      border-radius: 20px;
+      height: 480px;
+      width: 255px;
+      opacity: 0.6;
+      position: absolute;
+      top: 0;
+    }
   }
   
   &__part2-img-group {
