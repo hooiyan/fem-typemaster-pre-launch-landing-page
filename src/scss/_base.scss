@@ -11,6 +11,26 @@ html {
 
 body {
   background-color: var(--white);
-  font-family: 'Barlow', sans-serif;
+  font-family: var(--font-family);
   font-size: 1.6rem;
+  font-weight: var(--body-font-weight);
+}
+
+h1, h2, h3 {
+  font-weight: var(--heading-font-weight);
+  text-transform: uppercase;
+} 
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: var(--btn-font-weight);
+  padding: 16px 27px;
+  text-transform: uppercase;
+}
+
+.img {
+  border-radius: 20px;
 }

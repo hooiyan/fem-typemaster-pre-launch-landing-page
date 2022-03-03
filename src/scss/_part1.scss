@@ -1,0 +1,16 @@
+.main {
+  &__part1-img {
+    &--desktop {
+      height: 480px;
+      width: 540px;
+    }
+    &--tablet {
+      height: 425px;
+      width: 478px;
+    }
+    &--mobile {
+      height: 331px;
+      width: 372px;
+    }
+  }
+}

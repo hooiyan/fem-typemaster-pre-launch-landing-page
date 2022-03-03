@@ -8,7 +8,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="public/css/index.css">
   
@@ -31,12 +31,27 @@
           <p class="main__part1-cta main__part1-cta--date">Release on 5/27</p>
         </div>
       </div>
-      <!-- <picture>
-        <img src="./assets/desktop/image-keyboard.jpg" alt="typemaster keyboard">
-      </picture> -->
+
+      <picture class="main__part1-img-group">
+        <source class="img main__part1-img--mobile" srcset="./assets/mobile/image-keyboard.jpg" media="(max-width: 540px)">
+        <source class="img main__part1-img--tablet" srcset="./assets/tablet/image-keyboard.jpg" media="(max-width: 768px)">
+        <img class="img main__part1-img--desktop" src="./assets/desktop/image-keyboard.jpg" alt="typemaster keyboard">
+      </picture>
     </section>
 
     <section class="main__part2">
+      <picture class="main__part2-img-group-1">
+        <source class="img main__part2-img-group-1--mobile" srcset="./assets/mobile/image-phone-and-keyboard.jpg" media="(max-width: 540px)">
+        <source class="img main__part2-img-group-1--tablet" srcset="./assets/tablet/image-phone-and-keyboard.jpg" media="(max-width: 768px)">
+        <img class="img main__part2-img-group-1--desktop" src="./assets/desktop/image-phone-and-keyboard.jpg" alt="phone and keyboard on a desk">
+      </picture>
+
+      <picture class="main__part2-img-group-2">
+        <source class="img main__part2-img-group-2--mobile" srcset="./assets/mobile/image-glass-and-keyboard.jpg" media="(max-width: 540px)">
+        <source class="img main__part2-img-group-2--tablet" srcset="./assets/tablet/image-glass-and-keyboard.jpg" media="(max-width: 768px)">
+        <img class="img main__part2-img-group-2--desktop" src="./assets/desktop/image-glass-and-keyboard.jpg" alt="glass and keyboard on a desk">
+      </picture>
+
       <h2 class="main__part2--heading">Mechanical wireless keyboard</h2>
       <p class="main__part2--text">The Typemaster keyboard boasts top-notch build and practical design. It offers a wide variety of switches and keycaps, along with reliable wireless connectivity.</p>
     </section>

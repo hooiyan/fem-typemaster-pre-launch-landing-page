@@ -1,0 +1,31 @@
+.main {
+  &__part2-img-group-1 {
+    &--desktop {
+      height: 480px;
+      width: 255px;
+    }
+    &--tablet {
+      height: 320px;
+      width: 214px;
+    }
+    &--mobile {
+      height: 193px;
+      width: 129px;
+    }
+  }
+
+  &__part2-img-group-2 {
+    &--desktop {
+      height: 480px;
+      width: 445px;
+    }
+    &--tablet {
+      height: 320px;
+      width: 445px;
+    }
+    &--mobile {
+      height: 193px;
+      width: 220px;
+    }
+  }
+}

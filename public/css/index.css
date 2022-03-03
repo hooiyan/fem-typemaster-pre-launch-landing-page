@@ -8,8 +8,10 @@
 }
 
 :root {
+  --font-family: "Barlow", sans-serif;
   --heading-font-weight: 900;
   --body-font-weight: 500;
+  --btn-font-weight: 700;
   --h1-font-size: 5.6rem;
   --h1-small-font-size: 4.8rem;
   --h2-font-size: 3.2rem;
@@ -28,8 +30,66 @@ html {
 
 body {
   background-color: var(--white);
-  font-family: "Barlow", sans-serif;
+  font-family: var(--font-family);
   font-size: 1.6rem;
+  font-weight: var(--body-font-weight);
+}
+
+h1, h2, h3 {
+  font-weight: var(--heading-font-weight);
+  text-transform: uppercase;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-weight: var(--btn-font-weight);
+  padding: 16px 27px;
+  text-transform: uppercase;
+}
+
+.img {
+  border-radius: 20px;
+}
+
+.main__part1-img--desktop {
+  height: 480px;
+  width: 540px;
+}
+.main__part1-img--tablet {
+  height: 425px;
+  width: 478px;
+}
+.main__part1-img--mobile {
+  height: 331px;
+  width: 372px;
+}
+
+.main__part2-img-group-1--desktop {
+  height: 480px;
+  width: 255px;
+}
+.main__part2-img-group-1--tablet {
+  height: 320px;
+  width: 214px;
+}
+.main__part2-img-group-1--mobile {
+  height: 193px;
+  width: 129px;
+}
+.main__part2-img-group-2--desktop {
+  height: 480px;
+  width: 445px;
+}
+.main__part2-img-group-2--tablet {
+  height: 320px;
+  width: 445px;
+}
+.main__part2-img-group-2--mobile {
+  height: 193px;
+  width: 220px;
 }
 
 .main__part3-icon {
