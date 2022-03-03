@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+    position: relative;
 
     &--heading {
       margin-bottom: 24px;
@@ -12,6 +13,13 @@
     &--text {
       font-size: 1.8rem;
       margin-bottom: 40px;
+    }
+
+    &--square-pattern {
+      position: absolute;
+      right: 0;
+      transform: translateX(285px);
+      overflow-x: hidden;
     }
   }
 

@@ -3,9 +3,18 @@
     display: flex;
     align-items: center;
     margin-bottom: 168px;
+    position: relative;
     
     &--heading {
       margin-bottom: 27px;
+    }
+
+    &--square-pattern {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      transform: translateX(-285px);
+      overflow-x: hidden;
     }
   }
   

@@ -7,6 +7,8 @@
 
 html {
   font-size: 62.5%;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 body {
@@ -16,7 +18,6 @@ body {
   font-size: 1.6rem;
   font-weight: var(--body-font-weight);
   margin: 55px 165px 39px 165px;
-  max-width: 1440px;
 }
 
 h1, h2, h3 {

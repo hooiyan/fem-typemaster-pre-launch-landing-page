@@ -31,6 +31,8 @@
 
 html {
   font-size: 62.5%;
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 body {
@@ -40,7 +42,6 @@ body {
   font-size: 1.6rem;
   font-weight: var(--body-font-weight);
   margin: 55px 165px 39px 165px;
-  max-width: 1440px;
 }
 
 h1, h2, h3 {
@@ -97,11 +98,16 @@ p {
   color: var(--white);
 }
 
+.main {
+  position: relative;
+}
+
 .main__part1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
+  position: relative;
 }
 .main__part1--heading {
   margin-bottom: 24px;
@@ -109,6 +115,12 @@ p {
 .main__part1--text {
   font-size: 1.8rem;
   margin-bottom: 40px;
+}
+.main__part1--square-pattern {
+  position: absolute;
+  right: 0;
+  transform: translateX(285px);
+  overflow-x: hidden;
 }
 .main__part1-paragraph {
   height: 312px;
@@ -147,9 +159,17 @@ p {
   display: flex;
   align-items: center;
   margin-bottom: 168px;
+  position: relative;
 }
 .main__part2--heading {
   margin-bottom: 27px;
+}
+.main__part2--square-pattern {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-285px);
+  overflow-x: hidden;
 }
 .main__part2-img-group {
   display: flex;
