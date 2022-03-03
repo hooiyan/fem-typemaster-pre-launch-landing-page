@@ -7,7 +7,7 @@
     "sass": "^1.49.9"
   },
   "scripts": {
-    "watch-css": "sass --watch src/scss/index.scss public/css/index.css"
+    "watch-css": "sass --watch scss/index.scss css/index.css"
   },
   "author": "",
   "license": "ISC"
