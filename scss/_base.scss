@@ -1,3 +1,5 @@
+@use 'mixins' as *;
+
 // Reset CSS
 *, *::before, *::after {
   box-sizing: border-box;
@@ -20,6 +22,14 @@ body {
   font-weight: var(--body-font-weight);
   margin: 55px 165px 39px 165px;
   overflow-x: hidden;
+
+  @include breakpoint-xl {
+    margin: 40px 50px 39px 50px;
+  }
+
+  @include breakpoint-lg {
+    margin: 40px;
+  }
 }
 
 h1, h2, h3 {

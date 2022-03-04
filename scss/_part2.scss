@@ -6,9 +6,27 @@
     align-items: center;
     margin-bottom: 168px;
     position: relative;
+
+    @include breakpoint-lg {
+      flex-direction: column;
+      align-items: stretch;     
+      margin-bottom: 142px;
+    }
     
     &--heading {
       margin-bottom: 27px;
+
+      @include breakpoint-lg {
+        margin-bottom: 0;
+        margin-right: 80px;
+        width: 255px;
+      }
+    }
+
+    &--text {
+      @include breakpoint-lg {
+        width: 398px;
+      }
     }
 
     &--square-pattern {
@@ -29,6 +47,11 @@
       opacity: 0.6;
       position: absolute;
       top: 0;
+
+      @include breakpoint-2xl {
+        height: 440px;
+        width: 215px;
+      }
     }
   }
   
@@ -36,17 +59,32 @@
     display: flex;
     margin-right: 125px;
 
-    @include breakpoint-xl {
+    @include breakpoint-2xl {
       margin-right: 50px;
+    }
+
+    @include breakpoint-lg {
+      justify-content: space-between;
+      margin-bottom: 72px;
+      margin-right: 0;
     }
   }
 
   &__part2-img-group-1 {
     margin-right: 30px;
 
+    @include breakpoint-lg {
+      margin-right: 0;
+    }
+
     &--desktop {
       height: 480px;
       width: 255px;
+
+      @include breakpoint-2xl {
+        height: 440px;
+        width: 215px;
+      }
     }
     &--tablet {
       height: 320px;
@@ -62,6 +100,16 @@
     &--desktop {
       height: 480px;
       width: 445px;
+
+      @include breakpoint-2xl {
+        height: 440px;
+        width: 405px;
+      }
+
+      @include breakpoint-lg {
+        height: 440px;
+        width: 645px;
+      } 
     }
     &--tablet {
       height: 320px;
@@ -70,6 +118,13 @@
     &--mobile {
       height: 193px;
       width: 220px;
+    }
+  }
+
+  &__part2-paragraph {
+    @include breakpoint-lg {
+      display: flex; 
+      align-items: center;
     }
   }
 }

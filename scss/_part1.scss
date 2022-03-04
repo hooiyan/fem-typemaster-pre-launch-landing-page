@@ -10,6 +10,10 @@
 
     &--heading {
       margin-bottom: 24px;
+
+      @include breakpoint-lg {
+        font-size: var(--h1-small-font-size);
+      }
     }
 
     &--text {
@@ -30,6 +34,10 @@
   &__part1-paragraph {
     height: 312px;
     width: 445px;
+
+    @include breakpoint-lg {
+      margin-right: 69px;
+    }
   }
 
   &__part1-cta {
@@ -56,6 +64,16 @@
     &--desktop {
       height: 480px;
       width: 540px;
+
+      @include breakpoint-2xl {
+        height: 420px;
+        width: 480px;
+      }
+
+      @include breakpoint-lg {
+        height: 425px;
+        width: 478px;
+      }
     }
     &--tablet {
       height: 425px;

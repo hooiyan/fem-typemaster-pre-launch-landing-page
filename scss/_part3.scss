@@ -1,9 +1,18 @@
+@use 'mixins' as *;
+
 .main {
   &__part3 {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
+
+    @include breakpoint-lg {
+      grid-template-rows: repeat(2, 1fr);
+      column-gap: 69px;
+      row-gap: 72px;
+      margin-bottom: 142px;
+    }
 
     &--heading {
       margin-bottom: 24px;
@@ -13,24 +22,48 @@
   &__part3-item {
     margin-bottom: 128px;
 
+    @include breakpoint-lg {
+      margin-bottom: 0;
+    }
+
     &--compatible {
       grid-column: 1 / 2;
       grid-row: 1 / 5;
+
+      @include breakpoint-lg {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+      }
     }
 
     &--bluetooth {
       grid-column: 2 / 3;
       grid-row: 1 / 5;
+
+      @include breakpoint-lg {
+        grid-column: 3 / 5;
+        grid-row: 1 / 2;
+      }
     }
 
     &--battery {
       grid-column: 3 / 4;
       grid-row: 1 / 5;
+
+      @include breakpoint-lg {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+      }
     }
 
     &--light {
       grid-column: 4 / 5;
       grid-row: 1/ 5;
+
+      @include breakpoint-lg {
+        grid-column: 3 / 5;
+        grid-row: 2 / 3;
+      }
     }
   }
 

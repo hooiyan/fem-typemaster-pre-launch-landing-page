@@ -1,8 +1,14 @@
+@use 'mixins' as *;
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 83px;
+
+  @include breakpoint-lg {
+    margin-bottom: 62px;
+  }
 
   &__btn {
     background-color: var(--silver);
