@@ -43,7 +43,7 @@ body {
   font-size: 1.6rem;
   font-weight: var(--body-font-weight);
   margin: 55px 165px 39px 165px;
-  position: relative;
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -109,7 +109,7 @@ p {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
-  position: relative;
+  overflow: hidden;
 }
 .main__part1--heading {
   margin-bottom: 24px;
@@ -120,9 +120,7 @@ p {
 }
 .main__part1--square-pattern {
   position: absolute;
-  right: 0;
-  transform: translateX(285px);
-  overflow-x: hidden;
+  right: -285px;
 }
 .main__part1-paragraph {
   height: 312px;
@@ -168,10 +166,8 @@ p {
 }
 .main__part2--square-pattern {
   position: absolute;
-  left: 0;
   bottom: 0;
-  transform: translateX(-285px);
-  overflow-x: hidden;
+  left: -285px;
 }
 .main__part2--overlay {
   background-color: rgba(241, 103, 24, 0.9);

@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
-    position: relative;
-    // overflow-x: hidden;
+    // position: relative;
+    overflow: hidden;
 
     &--heading {
       margin-bottom: 24px;
@@ -18,9 +18,7 @@
 
     &--square-pattern {
       position: absolute;
-      right: 0;
-      transform: translateX(285px);
-      overflow-x: hidden;
+      right: -285px;
     }
   }
 

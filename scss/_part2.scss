@@ -11,10 +11,8 @@
 
     &--square-pattern {
       position: absolute;
-      left: 0;
       bottom: 0;
-      transform: translateX(-285px);
-      overflow-x: hidden;
+      left: -285px;
     }
 
     &--overlay {

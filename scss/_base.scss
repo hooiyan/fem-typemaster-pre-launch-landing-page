@@ -19,7 +19,7 @@ body {
   font-size: 1.6rem;
   font-weight: var(--body-font-weight);
   margin: 55px 165px 39px 165px;
-  position: relative;
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
