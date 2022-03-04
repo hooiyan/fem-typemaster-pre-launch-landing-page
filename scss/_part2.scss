@@ -1,3 +1,5 @@
+@use 'mixins' as *;
+
 .main {
   &__part2 {
     display: flex;
@@ -13,6 +15,10 @@
       position: absolute;
       bottom: 0;
       left: -285px;
+
+      @include breakpoint-xl {
+        display: none;
+      }
     }
 
     &--overlay {
@@ -29,6 +35,10 @@
   &__part2-img-group {
     display: flex;
     margin-right: 125px;
+
+    @include breakpoint-xl {
+      margin-right: 50px;
+    }
   }
 
   &__part2-img-group-1 {
