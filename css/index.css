@@ -23,6 +23,14 @@
   --paragraph-line-height: 26px;
 }
 
+:root {
+  --breakpoint-xl: 1365px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-md: 768px;
+  --breakpoint-sm: 576px;
+  --breakpoint-xs: 375px;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;

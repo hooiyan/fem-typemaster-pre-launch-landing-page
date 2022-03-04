@@ -29,3 +29,12 @@
   --h3-line-height: 28px;
   --paragraph-line-height: 26px;
 }
+
+// Breakpoints
+:root {
+  --breakpoint-xl: 1365px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-md: 768px;
+  --breakpoint-sm: 576px;
+  --breakpoint-xs: 375px;
+}
