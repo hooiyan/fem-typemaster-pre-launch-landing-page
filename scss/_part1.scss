@@ -6,19 +6,31 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
-    overflow: hidden;
+
+    @include respondTo(807px) {
+      overflow-x: visible;
+    }
 
     &--heading {
       margin-bottom: 24px;
 
       @include breakpoint-lg {
         font-size: var(--h1-small-font-size);
+        line-height: var(--h1-small-line-height);
       }
     }
 
     &--text {
       font-size: 1.8rem;
       margin-bottom: 40px;
+
+      @include respondTo(980px) {
+        padding-right: 20px;
+      }
+
+      @include respondTo(807px) {
+        font-size: 1.6rem;
+      }
     }
 
     &--square-pattern {
@@ -37,6 +49,11 @@
 
     @include breakpoint-lg {
       margin-right: 69px;
+    }
+
+    @include respondTo(980px) {
+      margin-bottom: 60px;
+      margin-top: 60px;
     }
   }
 
@@ -73,6 +90,21 @@
       @include breakpoint-lg {
         height: 425px;
         width: 478px;
+      }
+      
+      @include respondTo(980px) {
+        position: absolute;
+        right: -120px;
+        top: 0;
+        display: none; // todo: fix this
+      }
+
+      @include respondTo(850px) {
+        right: -180px;
+      }
+
+      @include breakpoint-md {
+        right: -200px;
       }
     }
     &--tablet {

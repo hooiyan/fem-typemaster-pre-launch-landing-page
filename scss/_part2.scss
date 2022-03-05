@@ -21,6 +21,10 @@
         margin-right: 80px;
         width: 255px;
       }
+
+      @include respondTo(800px) {
+        margin-right: 40px;
+      }
     }
 
     &--text {
@@ -50,7 +54,19 @@
 
       @include breakpoint-2xl {
         height: 440px;
-        width: 215px;
+        width: 214px;
+      }
+
+      @include respondTo(970px) {
+        height: 400px;
+      }
+
+      @include respondTo(920px) {
+        height: 380px;
+      }
+
+      @include respondTo(850px) {
+        height: 320px;
       }
     }
   }
@@ -68,6 +84,11 @@
       margin-bottom: 72px;
       margin-right: 0;
     }
+
+    @include respondTo(980px) {
+      // todo: fix this
+      display: none;
+    }
   }
 
   &__part2-img-group-1 {
@@ -83,7 +104,20 @@
 
       @include breakpoint-2xl {
         height: 440px;
-        width: 215px;
+        width: 214px;
+      }
+
+      @include respondTo(970px) {
+        height: 400px;
+        width: 214px;
+      }
+
+      @include respondTo(920px) {
+        height: 380px;
+      }
+
+      @include respondTo(850px) {
+        height: 320px;
       }
     }
     &--tablet {
@@ -110,6 +144,21 @@
         height: 440px;
         width: 645px;
       } 
+
+      @include respondTo(970px) {
+        height: 400px;
+        width: 595px;
+      }
+
+      @include respondTo(920px) {
+        height: 380px;
+        width: 525px;
+      }
+
+      @include respondTo(850px) {
+        height: 320px;
+        width: 445px;
+      }
     }
     &--tablet {
       height: 320px;

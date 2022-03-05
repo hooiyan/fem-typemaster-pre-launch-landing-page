@@ -30,6 +30,10 @@ body {
   @include breakpoint-lg {
     margin: 40px;
   }
+
+  @include breakpoint-xs {
+    margin: 24px;
+  }
 }
 
 h1, h2, h3 {
@@ -62,6 +66,7 @@ p {
   border-radius: 8px;
   cursor: pointer;
   font-family: var(--font-family);
+  font-size: 1.6rem;
   font-weight: var(--btn-font-weight);
   padding: 16px 27px;
   text-transform: uppercase;
@@ -70,3 +75,9 @@ p {
 .img {
   border-radius: 20px;
 }
+
+// .stretched-out {
+//   @include respondTo(768px) {
+//     margin-right: -40px;
+//   }
+// }
