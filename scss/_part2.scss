@@ -12,6 +12,10 @@
       align-items: stretch;     
       margin-bottom: 142px;
     }
+
+    @include breakpoint-sm {
+      margin-bottom: 111px;
+    }
     
     &--heading {
       margin-bottom: 27px;
@@ -25,11 +29,20 @@
       @include respondTo(800px) {
         margin-right: 40px;
       }
+
+      @include breakpoint-sm {
+        margin-right: 0;
+        margin-bottom: 24px;
+      }
     }
 
     &--text {
       @include breakpoint-lg {
         width: 398px;
+      }
+
+      @include breakpoint-sm {
+        width: auto;
       }
     }
 
@@ -174,6 +187,11 @@
     @include breakpoint-lg {
       display: flex; 
       align-items: center;
+    }
+
+    @include breakpoint-sm {
+      flex-direction: column;
+      text-align: center;
     }
   }
 }
