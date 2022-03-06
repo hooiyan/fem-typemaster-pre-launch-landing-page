@@ -81,6 +81,19 @@
       @include respondTo(850px) {
         height: 320px;
       }
+
+      @include respondTo(765px) {
+        width: 180px;
+      }
+
+      @include respondTo(695px) {
+        height: 193px;
+        width: 129px;
+      }
+
+      @include respondTo(490px) {
+        transform: translateX(-50px);
+      }
     }
   }
   
@@ -98,9 +111,8 @@
       margin-right: 0;
     }
 
-    @include respondTo(980px) {
-      // todo: fix this
-      display: none;
+    @include respondTo(695px) {
+      justify-content: flex-start;
     }
   }
 
@@ -131,6 +143,19 @@
 
       @include respondTo(850px) {
         height: 320px;
+      }
+
+      @include respondTo(765px) {
+        width: 180px;
+      }
+
+      @include respondTo(695px) {
+        height: 193px;
+        width: 129px;
+      }
+
+      @include respondTo(490px) {
+        transform: translateX(-50px);
       }
     }
     &--tablet {
@@ -171,6 +196,20 @@
       @include respondTo(850px) {
         height: 320px;
         width: 445px;
+      }
+
+      @include respondTo(765px) {
+        width: 400px;
+      }
+
+      @include respondTo(695px) {
+        height: 193px;
+        width: 220px;
+        margin-left: 24px;
+      }
+
+      @include respondTo(490px) {
+        transform: translateX(-50px);
       }
     }
     &--tablet {

@@ -70,6 +70,15 @@ p {
   font-weight: var(--btn-font-weight);
   padding: 16px 27px;
   text-transform: uppercase;
+
+  @include breakpoint-sm {
+    padding: 11px 14px;
+  }
+
+  @include respondTo(350px) {
+    font-size: 1.4rem;
+    padding: 10px;
+  }
 }
 
 .img {
