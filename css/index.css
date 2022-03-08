@@ -199,6 +199,7 @@ p {
 }
 .main__part1--square-pattern {
   position: absolute;
+  top: 0;
   right: -285px;
 }
 @media only screen and (max-width: 1280px) {
