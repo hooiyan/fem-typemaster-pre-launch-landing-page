@@ -385,11 +385,11 @@ p {
   }
 }
 .main__part2--overlay {
-  background-color: rgba(241, 103, 24, 0.9);
+  background-color: var(--orange-darken);
   border-radius: 20px;
   height: 480px;
   width: 255px;
-  opacity: 0.6;
+  mix-blend-mode: multiply;
   position: absolute;
   top: 0;
 }

@@ -57,11 +57,11 @@
     }
 
     &--overlay {
-      background-color: rgba($color: #F16718, $alpha: 0.9);
+      background-color: var(--orange-darken);
       border-radius: 20px;
       height: 480px;
       width: 255px;
-      opacity: 0.6;
+      mix-blend-mode: multiply;
       position: absolute;
       top: 0;
 
