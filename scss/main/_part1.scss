@@ -1,4 +1,4 @@
-@use 'mixins' as *;
+@use '../mixins' as *;
 
 .main {
   &__part1 {
@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+    overflow-x: hidden;
 
     @include respondTo(695px) {
       flex-direction: column;
@@ -68,8 +69,8 @@
     }
 
     @include respondTo(980px) {
-      margin-bottom: 60px;
       margin-top: 60px;
+      margin-bottom: 60px;
     }
 
     @include respondTo(695px) {
@@ -126,8 +127,8 @@
       
       @include respondTo(955px) {
         position: absolute;
-        right: -80px;
         top: 0;
+        right: -80px;
       }
 
       @include respondTo(865px) {

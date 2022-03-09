@@ -1,4 +1,4 @@
-@use 'mixins' as *;
+@use '../mixins' as *;
 
 .main {
   &__part2 {
@@ -21,8 +21,8 @@
       margin-bottom: 27px;
 
       @include breakpoint-lg {
-        margin-bottom: 0;
         margin-right: 80px;
+        margin-bottom: 0;
         width: 255px;
       }
 
@@ -107,8 +107,8 @@
 
     @include breakpoint-lg {
       justify-content: space-between;
-      margin-bottom: 72px;
       margin-right: 0;
+      margin-bottom: 72px;
     }
 
     @include respondTo(695px) {

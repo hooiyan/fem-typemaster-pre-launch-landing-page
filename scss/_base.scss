@@ -11,7 +11,6 @@ html {
   font-size: 62.5%;
   margin: 0 auto;
   max-width: 1440px;
-  position: relative;
 }
 
 body {
@@ -84,9 +83,3 @@ p {
 .img {
   border-radius: 20px;
 }
-
-// .stretched-out {
-//   @include respondTo(768px) {
-//     margin-right: -40px;
-//   }
-// }

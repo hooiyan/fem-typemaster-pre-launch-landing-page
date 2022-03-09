@@ -1,9 +1,8 @@
-@use 'mixins' as *;
 @use 'token';
 @use 'base';
 @use 'header';
-@use 'main';
-@use 'part1';
-@use 'part2';
-@use 'part3';
+@use 'main/_main';
+@use 'main/_part1';
+@use 'main/_part2';
+@use 'main/_part3';
 @use 'footer';

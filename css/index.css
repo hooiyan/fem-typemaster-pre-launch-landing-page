@@ -42,7 +42,6 @@ html {
   font-size: 62.5%;
   margin: 0 auto;
   max-width: 1440px;
-  position: relative;
 }
 
 body {
@@ -150,6 +149,7 @@ p {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
+  overflow-x: hidden;
 }
 @media only screen and (max-width: 695px) {
   .main__part1 {
@@ -218,8 +218,8 @@ p {
 }
 @media only screen and (max-width: 980px) {
   .main__part1-paragraph {
-    margin-bottom: 60px;
     margin-top: 60px;
+    margin-bottom: 60px;
   }
 }
 @media only screen and (max-width: 695px) {
@@ -274,8 +274,8 @@ p {
 @media only screen and (max-width: 955px) {
   .main__part1-img--desktop {
     position: absolute;
-    right: -80px;
     top: 0;
+    right: -80px;
   }
 }
 @media only screen and (max-width: 865px) {
@@ -348,8 +348,8 @@ p {
 }
 @media only screen and (max-width: 1024px) {
   .main__part2--heading {
-    margin-bottom: 0;
     margin-right: 80px;
+    margin-bottom: 0;
     width: 255px;
   }
 }
@@ -442,8 +442,8 @@ p {
 @media only screen and (max-width: 1024px) {
   .main__part2-img-group {
     justify-content: space-between;
-    margin-bottom: 72px;
     margin-right: 0;
+    margin-bottom: 72px;
   }
 }
 @media only screen and (max-width: 695px) {
@@ -704,7 +704,7 @@ p {
 .footer {
   text-align: center;
 }
-.footer__bold {
+.footer--bold {
   font-weight: var(--btn-font-weight);
 }
 
