@@ -429,7 +429,7 @@ p {
 }
 @media only screen and (max-width: 490px) {
   .main__part2--overlay {
-    transform: translateX(-50px);
+    transform: translateX(-40px);
   }
 }
 .main__part2-img-group {
@@ -500,7 +500,7 @@ p {
 }
 @media only screen and (max-width: 490px) {
   .main__part2-img-group-1--desktop {
-    transform: translateX(-50px);
+    transform: translateX(-40px);
   }
 }
 .main__part2-img-group-1--tablet {

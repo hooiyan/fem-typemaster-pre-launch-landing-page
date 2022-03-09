@@ -97,7 +97,7 @@
       }
 
       @include respondTo(490px) {
-        transform: translateX(-50px);
+        transform: translateX(-40px);
       }
     }
   }
@@ -160,7 +160,7 @@
       }
 
       @include respondTo(490px) {
-        transform: translateX(-50px);
+        transform: translateX(-40px);
       }
     }
     &--tablet {
@@ -241,5 +241,9 @@
     @include respondTo(490px) {
       margin-left: 40px;
     }
+
+    // @include respondTo(375px) {
+    //   margin-left: 10px;
+    // }
   }
 }
