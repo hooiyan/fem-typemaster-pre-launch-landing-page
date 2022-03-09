@@ -6,7 +6,6 @@
     align-items: center;
     margin-bottom: 168px;
     position: relative;
-    overflow: hidden;
 
     @include breakpoint-lg {
       flex-direction: column;
@@ -20,6 +19,7 @@
 
     @include respondTo(490px) {
       margin-left: -40px;
+      overflow: hidden;
     }
     
     &--heading {

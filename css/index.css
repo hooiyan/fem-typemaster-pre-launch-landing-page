@@ -326,7 +326,6 @@ p {
   align-items: center;
   margin-bottom: 168px;
   position: relative;
-  overflow: hidden;
 }
 @media only screen and (max-width: 1024px) {
   .main__part2 {
@@ -343,6 +342,7 @@ p {
 @media only screen and (max-width: 490px) {
   .main__part2 {
     margin-left: -40px;
+    overflow: hidden;
   }
 }
 .main__part2--heading {
