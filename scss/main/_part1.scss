@@ -154,12 +154,9 @@
         width: 372px;
       }
 
-      @include respondTo(460px) {
-        transform: translateX(50px);
-      }
-
-      @include respondTo(375px) {
-        transform: translateX(45px);
+      @include respondTo(490px) {
+        height: 100%;
+        width: 100%;
       }
     }
     &--tablet {
