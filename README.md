@@ -1,32 +1,32 @@
-# Frontend Mentor - Typemaster pre-launch landing page solution
-
-This is a solution to the [Typemaster pre-launch landing page challenge on Frontend Mentor](). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+# Typemaster pre-launch landing page
 
 ## Table of contents
 
-- [Frontend Mentor - Typemaster pre-launch landing page solution](#frontend-mentor---typemaster-pre-launch-landing-page-solution)
+- [Typemaster pre-launch landing page](#typemaster-pre-launch-landing-page)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
-    - [The challenge](#the-challenge)
+    - [Summary](#summary)
+    - [Links](#links)
     - [Screenshot](#screenshot)
       - [Desktop](#desktop)
       - [Tablet](#tablet)
       - [Mobile](#mobile)
-    - [Links](#links)
-  - [My process](#my-process)
-    - [Built with](#built-with)
-    - [Development](#development)
+  - [Details](#details)
+    - [Web stack and explanation](#web-stack-and-explanation)
+    - [Problem and thought process](#problem-and-thought-process)
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
 
-### The challenge
+### Summary
 
-Users should be able to:
+A beautiful product landing page built with HTML and SCSS along with modern CSS practices.
 
-- View the optimal layout depending on their device's screen size
-- See hover states for interative elements
+### Links
+
+- Solution URL: [GitHub](https://github.com/hooiyan/fem-typemaster-pre-launch-landing-page)
+- Live Site URL: [Netlify](https://hy-typemaster.netlify.app/)
 
 ### Screenshot
 
@@ -39,14 +39,9 @@ Users should be able to:
 #### Mobile
 ![](./screenshots/screenshot-mobile.png)
 
-### Links
+## Details
 
-- Solution URL: [GitHub](https://github.com/hooiyan/fem-typemaster-pre-launch-landing-page)
-- Live Site URL: [Vercel](https://h2y-typemaster-pre-launch.vercel.app/)
-
-## My process
-
-### Built with
+### Web stack and explanation
 
 - BEM naming convention
 - SCSS
@@ -54,7 +49,7 @@ Users should be able to:
 - CSS Grid
 - Desktop-first workflow
 
-### Development
+### Problem and thought process
 
 1. At first, I was planning to build the layout with only CSS Grid as suggested in the challenge details. But I only used that for the last section with the four logos.
 2. I was also struggling with `overflow:hidden` that didn't work, I still am, that's why I styled the first keyboard image a bit differently. 
@@ -65,8 +60,8 @@ Users should be able to:
 
 - [Why does position absolute make page to overflow?](https://newbedev.com/why-does-position-absolute-make-page-to-overflow) - This helped me for understanding why overflow does not work as we expected.
 - [When importing a file with @use then: Error Undefined Mixin](https://stackoverflow.com/questions/66365150/when-importing-a-file-with-use-then-error-undefined-mixin) - This is the exact question that I asked on Google as I received the same error message when I couldn't get to use the mixins that I have defined in `_mixins.scss`. Therefore, I have to import like so: `@use 'mixins as *`.
- 
+
 ## Author
 
-<!-- - Website - [hooiyan](https://hooiyan.vercel.app) -->
+- Website - [hooiyan](https://hooiyan.netlify.app)
 - Frontend Mentor - [@hooiyan](https://www.frontendmentor.io/profile/hooiyan)
